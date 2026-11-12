@@ -1,0 +1,15 @@
+ALIYAN BUSINESS MANAGER — ANDROID PROJECT
+
+Build an APK using Android Studio:
+1. Install Android Studio (with Android SDK Platform 35).
+2. Extract this ZIP.
+3. In Android Studio choose Open and select the AliyanBusinessManager folder.
+4. Wait for Gradle sync to finish.
+5. Select Build > Build Bundle(s) / APK(s) > Build APK(s).
+6. The debug APK will be created at:
+   app/build/outputs/apk/debug/app-debug.apk
+7. Copy the APK to your Android phone and install it. Android may ask you to allow installation from that source.
+
+This project wraps the included offline ledger and inventory app in an Android WebView.
+No internet permission is requested. Data is stored locally in app WebView storage.
+Use the app's Export Backup feature regularly.
